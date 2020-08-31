@@ -1,0 +1,30 @@
+html,
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+* {
+	outline: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: $fs;
+}
+body {
+	cursor: default;
+	/* default font settings */
+	font-family: $ff-base;
+	color: $text;
+	line-height: 1.4;
+	/* break words without spacing */
+	word-wrap: break-word;
+	word-break: break-word;
+}
